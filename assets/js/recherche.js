@@ -7,7 +7,7 @@ let productData = {
 async function loadProductData() {
     try {
         // Remplacez cette URL par le chemin vers votre fichier JSON
-        const response = await fetch('/api/index.php');
+        const response = await fetch('/assets/data/products.json');
         productData = await response.json();
         return productData;
     } catch (error) {

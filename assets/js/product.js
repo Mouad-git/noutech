@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterSelect = document.getElementById('filter-select');
 
   // Charger les produits depuis le JSON
-  fetch('/api/index.php')
+  fetch('/assets/data/products.json')
     .then(response => response.json())
     .then(data => {
       // Générer le HTML pour chaque produit

@@ -1,6 +1,6 @@
 // Fonction pour charger les produits
 function loadProducts() {
-  fetch('/api/index.php') // Remplacez par le chemin correct vers votre fichier JSON
+  fetch('/assets/data/products.json') // Remplacez par le chemin correct vers votre fichier JSON
     .then(response => response.json())
     .then(data => {
       const carousel = document.getElementById('product-carousel');
@@ -51,7 +51,7 @@ function loadProducts() {
 
 // Fonction pour charger les caméras
 function loadCameras() {
-  fetch('/api/index.php') // Remplacez par le chemin correct vers votre fichier JSON
+  fetch('/assets/data/products.json') // Remplacez par le chemin correct vers votre fichier JSON
     .then(response => response.json())
     .then(data => {
       const carousel = document.getElementById('camera-carousel');
@@ -100,7 +100,7 @@ function loadCameras() {
 
 
 function loadPrise() {
-  fetch('/api/index.php') // Remplacez par le chemin correct vers votre fichier JSON
+  fetch('/assets/data/products.json') // Remplacez par le chemin correct vers votre fichier JSON
     .then(response => response.json())
     .then(data => {
       const carousel = document.getElementById('Prise-carousel');
@@ -148,7 +148,7 @@ function loadPrise() {
 
 
 function loadInterrupteur() {
-  fetch('/api/index.php') // Remplacez par le chemin correct vers votre fichier JSON
+  fetch('/assets/data/products.json') // Remplacez par le chemin correct vers votre fichier JSON
     .then(response => response.json())
     .then(data => {
       const carousel = document.getElementById('interrupteur-carousel');
@@ -197,7 +197,7 @@ function loadInterrupteur() {
 
 
 function loadHygromètre() {
-  fetch('/api/index.php') // Remplacez par le chemin correct vers votre fichier JSON
+  fetch('/assets/data/products.json') // Remplacez par le chemin correct vers votre fichier JSON
     .then(response => response.json())
     .then(data => {
       const carousel = document.getElementById('hygromètre-carousel');
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterButtons = document.querySelectorAll('.filter-btn');
 
   // Charger les produits depuis le JSON
-  fetch('/api/index.php')
+  fetch('/assets/data/products.json')
     .then(response => response.json())
     .then(data => {
       // Générer le HTML pour chaque produit

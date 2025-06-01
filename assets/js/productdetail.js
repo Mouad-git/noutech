@@ -6,7 +6,7 @@ let productsData = null;
 // Charger les données des produits
 async function loadProductsData() {
     try {
-        const response = await fetch('/api/index.php');
+        const response = await fetch('/assets/data/products.json');
         productsData = await response.json();
         return productsData;
     } catch (error) {
