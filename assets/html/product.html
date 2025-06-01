@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Produits</title>
+  <meta name="title" content="NOUTECH - Get Quality Furniture">
+  <meta name="description" content="This is an eCommerce ">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/letter-n.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/images/hero-product-1.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-2.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-3.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-4.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-5.jpg">
+
+  <!-- 
+    - font awesome link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+<body id="top">
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+        <!-- Barre de recherche unique -->
+        <div class="input-wrapper">
+            <div class="search-bar">
+                <input type="text" 
+                       id="search-input" 
+                       placeholder="Rechercher des produits..."
+                       aria-label="Rechercher">
+                <button id="search-button" aria-label="Lancer la recherche">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div id="search-suggestions" class="search-suggestions hidden"></div>
+        </div>
+
+        <!-- Logo -->
+        <a href="/index.html" class="logo">
+            <img style="width: 150px; display: block; margin: 0 auto;" 
+                 src="/assets/images/logo.jpg" 
+                 alt="Logo du site">
+        </a>
+
+        <!-- Actions header -->
+        <div class="header-action">
+            <button class="header-action-btn search-toggle-btn" 
+                    aria-label="Ouvrir la recherche"
+                    data-search-toggler>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <!-- Les autres boutons restent inchangés -->
+            <a href="/assets/html/login.html">
+                <button class="header-action-btn" aria-label="Profil utilisateur">
+                    <ion-icon name="person-outline"></ion-icon>
+                </button>
+            </a>
+
+            <a href="/assets/html/favorite.html">
+                <button class="header-action-btn" aria-label="Favoris">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <span class="btn-badge">0</span>
+                </button>
+            </a>
+
+            <button class="header-action-btn" aria-label="Panier" data-cart-toggler>
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                <span class="btn-badge">0</span>
+            </button>
+
+            <button class="header-action-btn" 
+                    aria-label="Ouvrir le menu" 
+                    data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<!-- Sidebar du Panier -->
+<div class="sidebar cart-sidebar" data-cart-sidebar>
+
+  <button class="nav-close-btn" aria-label="Fermer le panier" data-cart-toggler>
+    <ion-icon name="close-outline"></ion-icon>
+  </button>
+
+  <div class="wrapper">
+    <h2 class="cart-title">Mon Panier</h2>
+    <div class="cart-content">
+      <p class="empty-cart-message">Votre panier est vide.</p>
+      <!-- Ici les produits seront ajoutés dynamiquement -->
+    </div>
+  </div>
+
+</div>
+
+<div class="overlay" data-cart-overlay></div>
+
+
+
+
+
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <div class="sidebar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+      <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <div class="wrapper">
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Langue</p>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Français</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Anglais</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Arabe</a>
+        </li>
+
+      </ul>
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Devise</p>
+        </li>
+
+
+        <li>
+          <a href="#" class="sidebar-link">MAD - Moroccan Dirham</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>Accueil</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="/assets/html/about.html" class="navbar-link" data-nav-link>À propos</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="/assets/html/product.html" class="navbar-link" data-nav-link>Produits</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <ul class="contact-list">
+
+      <li>
+        <p class="contact-list-title">Contactez-nous</p>
+      </li>
+
+      <li class="contact-item">
+        <address class="address">
+          Tit Mellil, Casablanca, Maroc
+        </address>
+      </li>
+
+      <li class="contact-item">
+        <a href="mailto:noutechnologie@gmail.com" class="contact-link">noutechnologie@gmail.com</a>
+      </li>
+
+      <li class="contact-item">
+        <a href="tel:0721-311213" class="contact-link">+212 721-311213</a>
+      </li>
+
+    </ul>
+
+    <div class="social-wrapper">
+
+      <p class="social-list-title">Suivez-nous sur les réseaux</p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="overlay" data-overlay data-nav-toggler></div>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      
+<!-- 
+        - #ABOUT
+      -->
+
+       <!-- breadcrumb-area start -->
+    <div class="breadcrumb-area">
+      <div class="container">
+          <div class="row">
+              <div class="liens-breadcrumb">
+                  <div class="breadcrumb_box">
+                      <div class="breadcrumb-title-box">
+                          <h1 class="breadcrumb-title">Produits</h1>
+                      </div>
+                      <div class="lien-breadcrumb">
+                          <!-- breadcrumb-list start -->
+                          <ul class="breadcrumb-list pro">
+                              <li class="breadcrumb-item"><a href="/index.html">Accueil</a></li>
+                              <li class="breadcrumb-item active">/ Produits</li>
+                          </ul>
+                          <!-- breadcrumb-list end -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- breadcrumb-area end -->
+
+
+
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section product" id="product" aria-label="product">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="h2 section-title3">Catégorie de produits</h2>
+      
+            <div class="dropdown">
+              <div class="dropdown-toggle" tabindex="0">Tous les produits</div>
+              <div class="dropdown-menu">
+
+                <div id="dropdown-items"></div>
+              </div>
+            </div>
+        
+          </div>
+      
+          <ul class="grid-list product-list" data-filter="all">
+            <!-- Les produits seront générés ici dynamiquement -->
+          </ul>
+        </div>
+      </section>
+      
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div class="card-content">
+              <h2 class="h2 section-title">Abonnez-vous</h2>
+
+              <p class="section-text">
+                Pour découvrir nos nouveautés
+              </p>
+            </div>
+
+            <form action="" class="card-form2">
+              <input type="email" name="email_address" placeholder="Votre addresse e-mail" required class="email-field2">
+
+              <button type="submit" class="newsletter-btn" aria-label="subscribe">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img style="width: 110px; display: block;" src="/assets/images/logo.jpg" alt="logo"></a>
+<br>
+          <ul>
+
+            <li class="footer-list-item">
+              
+
+              <address class="address">
+                Noutech - L'essentiel pour tous, de l'électronique aux articles du quotidien, à des prix incroyablement bas !
+              </address>
+            </li>
+
+            
+            
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact</p>
+          </li>
+
+          <li class="inline-icon-text">
+            <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+            <address class="address">
+              Tit Mellil, Casablanca, Maroc
+            </address>
+          </li>
+          <li class="inline-icon-text">
+            <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+            <a href="tel:+1234567890" class="footer-link">+212 721-311213</a>
+          </li>
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Liens rapides</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="./assets/html/about.html" class="footer-link">À propos </a>
+          </li>
+
+          <li>
+            <a href="./assets/html/product.html" class="footer-link">Produits</a>
+          </li>
+
+          
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Abonnez-vous</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" placeholder="Votre addresse e-mail" required class="email-field">
+
+            <button type="submit" class="footer-form-btn">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <div class="wrapper">
+
+            <a href="#" class="footer-link">Conditions générales</a>
+            <a href="#" class="footer-link">Politique</a>
+            <a href="#" class="footer-link">Carte</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2025 Tous droits réservés par <a href="https://mouadnouzri.netlify.app/" target="_blank" class="copyright-link"> Mouad Nouzri</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/assets/js/script.js" defer></script>
+  <script src="/assets/js/recherche.js" defer></script>
+  <script src="/assets/js/product.js" defer></script>
+  <script src="/assets/js/cart.js" defer></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</body>
+
+</html>

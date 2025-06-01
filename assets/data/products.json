@@ -1,0 +1,581 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gosund-Prise WiFi intelligente",
+      "description": "Gosund-Prise WiFi intelligente éventuelles 112 pour touristes, prise USB, télécommande vocale, moniteur d'énergie, minuterie, Alexa, Google Home",
+      "currentPrice": 110.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://image.alza.cz/products/GoSnd02/GoSnd02.jpg?width=1000&height=1000",
+        "https://image.alza.cz/products/GoSnd02/GoSnd02-01.jpg?width=1000&height=1000",
+        "https://image.alza.cz/products/GoSnd02/GoSnd02-02.jpg?width=1000&height=1000",
+        "https://image.alza.cz/products/GoSnd02/GoSnd02-03.jpg?width=1000&height=1000"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "WiFi interrupteur intelligent, télécommande sans fil",
+      "description": "Meross WiFi DIY interrupteur intelligent, télécommande sans fil, Module d'éclairage pour maison intelligente, commande vocale pour Alexa Google Home SmartThings ",
+      "currentPrice": 120.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S64b1c91ccd9f44638604af84068274d9J.png_960x960.png_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb3983506aeac429c81f00f41dd79aaf5E.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sac5880581036449da9eddda0eb9864846.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S60b1ac07383b410c8115a6319d76e1deA.jpg_960x960q75.jpg_.avif"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Prise intelligente Wifi Nooie",
+      "description": "Noaie – prise intelligente Wifi EU, avec moniteur d'énergie, commande vocale à distance, fonction minuterie, fonctionne avec Alexa et Google Assistant",
+      "currentPrice": 100.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/616+yf1U6OL._SX522_.jpg",
+        "https://i.ebayimg.com/images/g/rRkAAOSwY8NkWUE6/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/ZggAAOSwmGJkWUE9/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/yjMAAOSwz4JkWUE~/s-l1600.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Commutateur sans fil 4CH Pro R3",
+      "description": "Macoff-Commutateur sans fil 4CH Pro R3, RF 433MHz, WiFi, Smart Home, Light Switch4 Gang, 3 modes de fonctionnement, Inching Interlock, Alexa ",
+      "currentPrice": 350.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/H0e1d61cd03d44e108051c51ee6e53da80.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Hf2d8202c2d2842df9cf5814fd6ebead8q.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/H8a31a325417d46758e8d7c12c9096e0fT.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Hd1c4e1e5ef414d9a9f4846a11e2695dc5.jpg_960x960q75.jpg_.avif"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Commutateur de récepteur de télécommande",
+      "description": "Macoff-Commutateur sans fil 4CH Pro R3, RF 433MHz, WiFi, Smart Home, Light Switch4 Gang, 3 modes de fonctionnement, Inching Interlock, Alexa ",
+      "currentPrice": 180.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://i5.walmartimages.com/asr/92ea0075-3715-4489-a028-a42d02d027f3.7fdedcb2ef230640410f16537e2ddb5d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "https://s.alicdn.com/@sc04/kf/H91a5880e111f43889a533c93c9701c09v.jpg_720x720q50.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S8ccd6a2cbe6c43e0984d34ace8467270h.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S35d927d087cf47968e363341b5422295U.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/See496b3dadb94b7a90020940e04aa335F.jpg_960x960q75.jpg_.avif"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gosund EP 2 2450 W 10 A Wi-Fi 2,4 GHz Blanc",
+      "description": "Gosund EP 2, prise intelligente de 10 A avec une puissance maximale de 2450 W avec connexion Wi-Fi 2,4 GHz et contrôle à distance via smartphones, compatible avec les assistants vocaux.",
+      "currentPrice": 120.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/Gosund EP2.png",
+        "https://www.powerplanetonline.com/cdnassets/ep202_ad_l.jpg",
+        "https://www.powerplanetonline.com/cdnassets/ep203_ad_l.jpg",
+        "https://media.s-bol.com/qZ46kjnEvDLk/550x483.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Prise Wifi intelligente",
+      "description": "Les prises intelligentes vous permettent de contrôler vos appareils via une application mobile ou des commandes vocales (Google Home, Amazon Alexa, IFTTT), offrant une gestion pratique et automatisée.",
+      "currentPrice": 130.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/prise.png",
+        "https://media.s-bol.com/JZq2VLA44LGl/550x448.jpg",
+        "https://media.s-bol.com/g5LGBvjrrJMk/550x467.jpg",
+        "https://media.s-bol.com/Nx92ZPVB61EL/550x428.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Prise intelligente Wifi Nooie 2 pièces",
+      "description": "Les prises intelligentes vous permettent de surveiller la consommation d'énergie, de programmer des horaires, et de contrôler les appareils via commande vocale ou application. Elles s'installent rapidement sur un réseau Wi-Fi 2,4 GHz. ",
+      "currentPrice": 200.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/NOOIE2.png",
+        "https://m.media-amazon.com/images/I/81EpBtFQX5L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91BXx6oCDJL._SL1500_.jpg",
+        "https://a.allegroimg.com/s1024/0c96b9/6e08847643a5be9c0be9a60c0459",
+        "https://a.allegroimg.com/s1024/0c0e58/fe7458874a51978785154440c001"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Etersky Prise Intelligente",
+      "description": "Prise Connectée WiFi, Etersky Prise Intelligente Compatible avec Alexa (Echo, Echo Dot)- Google Home, Prise Contrôle à Distance A204",
+      "currentPrice": 110.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/etersky (1).png",
+        "https://www.cdiscount.com/pdt2/9/4/6/2/700x700/8180776831946/rw/prise-connectee-wifi-etersky-prise-intelligente-c.jpg",
+        "https://www.cdiscount.com/pdt2/3/5/6/3/700x700/8180776832356/rw/prise-connectee-wifi-etersky-prise-intelligente-c.jpg",
+        "https://www.cdiscount.com/pdt2/3/5/6/4/700x700/8180776832356/rw/prise-connectee-wifi-etersky-prise-intelligente-c.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Prise WiFi intelligente Gosund 2 pièces",
+      "description": "Les prises intelligentes Gosund permettent de contrôler vos appareils à distance via une application ou des commandes vocales, tout en surveillant la consommation d'énergie.",
+      "currentPrice": 200.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://www.e-gate.gr/wp-content/uploads/2023/11/6561d2be4318442caeadd510.jpg",
+        "https://silumen.com/cdn/shop/products/prise-connectee-wifi-16a-2-ports-usb-21a-lot-de-2-471419_1800x1800.jpg?v=1694010789",
+        "https://silumen.com/cdn/shop/products/prise-connectee-wifi-16a-2-ports-usb-21a-lot-de-2-833183_1800x1800.jpg?v=1694010789",
+        "https://www.e-gate.gr/wp-content/uploads/2023/11/6561d2be4318442caeadd516.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Meross MSS210 HomeKit Blanc",
+      "description": "Prise intelligente Meross, prise WiFi compatible avec Apple HomeKit, Alexa, Google Home, prise 16A 3840W avec minuterie, télécommande, commande vocale",
+      "currentPrice": 110.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/meross_mss210.png",
+        "https://www.powerplanetonline.com/cdnassets/meross_mss210hkit_homekit_blanco_01_l.jpg",
+        "https://www.powerplanetonline.com/cdnassets/meross_mss210hkit_homekit_blanco_02_ad_l.jpg",
+        "https://www.powerplanetonline.com/cdnassets/meross_mss210hkit_homekit_blanco_04_ad_l.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Meross Interrupteur MSS510 Verre Tactile",
+      "description": "L'interrupteur WiFi fonctionne avec Apple HomeKit, meross Interrupteur mural Smart Switch, 1 groupe nécessite un fil neutre, compatible avec Siri, Alexa et Google Home, 2,4 GHz ",
+      "currentPrice": 150.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/41xGkE-CnlL._SL1500_.jpg",
+        "https://www.tradeinn.com/f/13974/139745214_2/meross-interrupteur-mss510-verre-tactile.webp",
+        "https://www.tradeinn.com/f/13974/139745214_7/meross-interrupteur-mss510-verre-tactile.webp",
+        "https://www.tradeinn.com/f/13974/139745214_8/meross-interrupteur-mss510-verre-tactile.webp"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Topcony Indoor Surveillance Camera",
+      "description": "Topcony Indoor Surveillance Camera, Baby Monitor with Camera with Motion Detection, Automatic Tracking, Night Vision, Two-Way Audio, 1080P WLAN Camera, 360° Surveillance Indoor, Dog Camera with App ",
+      "currentPrice": 300.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/topcony.png",
+        "https://m.media-amazon.com/images/I/81BAxVtgevL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71QqypNh2hL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71fnuoiQymL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61Se7FTHuNL._AC_SX679_.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Teckin TC100 Security Camera",
+      "description": "Teckin Cam 1080P FHD Indoor Wi-Fi Smart Camera for Home Security, Night Vision, 2-Way Audio, Motion&Sound Detection, Desk Stand/Wall&Ceiling Mount/Action Mode, for Baby/Pet/Elderly ",
+      "currentPrice": 200.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://i5.walmartimages.com/seo/Teckin-TC100-1080P-Wi-Fi-Monitor-Indoor-Smart-Surveillance-Security-Camera-Home-Motion-Sound-Detection-1-Pack-White-Supports-Only-2-4Ghz-Wi-Fi_f4ef6e96-ccc9-4135-a54b-38d6075615fe.54e820f8e1188174b50393ef181ab3de.jpeg",
+        "https://m.media-amazon.com/images/I/71SnJGaz8gS._AC_SY879_.jpg",
+        "https://m.media-amazon.com/images/I/41k-WQN35iL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41m5EOiz2jS._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/717bA9vL2cL._AC_SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Caméra de sécurité WiFi ANTELA",
+      "description": "ANTELA Caméra Surveillance WiFi Intérieur 1080P, 2,4GHz/5GHz WiFi, 355°/90°, 2 Voies Audio Vision Nocturne IR Détection de Mouvement Compatible avec Alexa/Google Home (4PCS) ",
+      "currentPrice": 300.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/ANTELA.png",
+        "https://www.antelaglobal.com/cdn/shop/files/C23-2-07.jpg?v=1682587399&width=1100",
+        "https://www.antelaglobal.com/cdn/shop/files/C23-1-02.jpg?v=1682587414&width=1100",
+        "https://www.antelaglobal.com/cdn/shop/files/C23-1-03.jpg?v=1682587486&width=1100"
+        
+      ]
+    },
+    {
+      "id": 16,
+      "name": "GALAYOU Caméras de Surveillance intérieure",
+      "description": "Caméra pour animaux de compagnie GALAYOU 2K WiFi, caméra de sécurité intérieure pour chien, chat, caméra de surveillance pour bébé, caméra sans fil 360 °, suivi de mouvement, vision nocturne, audio bidirectionnel, fonctionne avec Alexa et Google Home G2",
+      "currentPrice": 300.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://nwzimg.wezhan.net/contents/sitefiles3607/18036786/images/7483118.png",
+        "https://m.media-amazon.com/images/I/71ij1BxbZHL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71ZFVoy6xvL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71KBTeBzqgL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61Gb21G6AXL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71oMixKVpWL._AC_SX679_.jpg"
+        
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Camera intérieure Wi-Fi GNCC 2.4G",
+      "description": "GNCC Telecamera 2.4G Wi-Fi Interno, P3 1080p Baby Monitor, Videocamera Sorveglianza Interno, 360° Pan/Tilt/Zoom, Compatibile con Alexa, Visione Notturna, Tracciamento del Movimento e Audio a 2 Vie",
+      "currentPrice": 300.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/71J7Gb+DPlL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81ic4TlWvpL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71Nuv6dNoqL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/810rAmqVniL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/8198oIyegaL._AC_SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "AOSU - Camera Surveillance WiFi 2K",
+      "description": "Caméra de sécurité intérieure AOSU 4MP, moniteur pour bébé 2,5K, caméra pour animaux de compagnie 360° pour la sécurité à domicile, caméra WiFi avec Wi-Fi 5/2,4 GHz, appel à une touche",
+      "currentPrice": 300.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/AOSU.png",
+        "https://m.media-amazon.com/images/I/61-IidxePML._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/418bf8I3JwL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/71eWIz31EzL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61SpSLlmprL._AC_SX679_.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "GNCC - Camera Surveillance WiFi Intérieur",
+      "description": "moniteur bébé GNCC pour nouveau-né, essentiels pour nouveau-né, caméra intérieure 1080 P avec vision nocturne, pleurs/mouvement/détection sonore, alerte en temps réel, audio bidirectionnel, télécommande, stockage SD&Cloud, C1",
+      "currentPrice": 200.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/GNCC.png",
+        "https://m.media-amazon.com/images/I/71K8joRmkIL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71GdSAv+0QL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71MTsIBCR-L._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71kGLTwT67L._AC_SX522_.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Camera A Ampoule E27, Caméra WiFi sans Fil Full HD",
+      "description": "JOYNANO SECUEYE APP 5MP Ampoule Caméra WiFi 2,4 GHz 5 GHz Pan/Tilt/Zoom Automatique Suivi Couleur Nuit Détection de Mouvement 24/7 Enregistrement",
+      "currentPrice": 200.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/JOYNANO.png",
+        "https://m.media-amazon.com/images/I/516vJ1iij8L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71dhln-5GDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61fxjuhEmAL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51WxNzd7-HL._AC_SX679_.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Sonoff - Interrupteur d'éclairage intelligent WiFi 1 Gang",
+      "description": "Interrupteur d'éclairage intelligent WiFi 1 Gang Interrupteur mural à écran tactile pour Google Assistant Alexa Commande vocale",
+      "currentPrice": 160.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://witty.ma/wp-content/uploads/2020/12/H6ce21b05793d4af3a91b3b660c223a5aY.jpg",
+        "https://media.s-bol.com/xVyVEWm4xxwl/Q1O9Bl9/1157x1200.jpg",
+        "https://media.s-bol.com/NEGEA7BOY0vK/Q1O9Bl9/1200x985.jpg",
+        "https://witty.ma/wp-content/uploads/2020/12/H45cf92edad05497b864bbbad67424facm.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Maxcio WF-CS01 - Interrupteur tactile mural connecté Wifi",
+      "description": "Maxcio Wlan dropdown witch, contrôle intelligent du menu déroulant compatible avec Alexa, Google Home et Siri, via le contrôle de l'application",
+      "currentPrice": 170.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/51R38gHHjZL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71Zl0wBtVOL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71UINEdU+QL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61xiRVNDRSL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61sEVJTVbJL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "GOSUND - Double prise connectée WiFi",
+      "description": "Prise intelligente double Gosund : contrôle deux appareils via WiFi et Tuya Smart, mesure la consommation électrique. Pas de trou de mise à la terre.",
+      "currentPrice": 150.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://cdn1.botland.de/122223/tuya-doppelte-wifi-smart-steckdose-mit-energiemessung-3500-w-weiss-gosund-sp211.jpg",
+        "https://cdn1.botland.de/122224/tuya-doppelte-wifi-smart-steckdose-mit-energiemessung-3500-w-weiss-gosund-sp211.jpg",
+        "https://cdn1.botland.de/122225/tuya-doppelte-wifi-smart-steckdose-mit-energiemessung-3500-w-weiss-gosund-sp211.jpg",
+        "https://cdn1.botland.de/122226/tuya-doppelte-wifi-smart-steckdose-mit-energiemessung-3500-w-weiss-gosund-sp211.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Teckin Prise Connectée SP22-1 WiFi",
+      "description": "Prise Connectée WIFI, TECKIN Prise intelligente 16A compatible avec Android et iOS Alexa (Echo et Echo Dot), Siri, SmartThings, Google Home, Surveillance de l’énergie, Fonction minuterie.",
+      "currentPrice": 120.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/51/485795/1.jpg?5747",
+        "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/51/485795/2.jpg?5747",
+        "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/51/485795/3.jpg?5747",
+        "https://de.teckinhome.com/cdn/shop/products/SP22_04.jpg?v=1678795148"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Teckin Prise Connectée SP21-1 WiFi",
+      "description": "Teckin Prise Connectée SP21-1 WiFi 16A Compatible avec Alexa, Google Home, Siri, Commande Vocale, Contrôle à Distance, Minuterie et Horaire.",
+      "currentPrice": 100.00,
+      "category": "Prise",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/TEEKIN.png",
+        "https://m.media-amazon.com/images/I/51RDhgZdZTL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/715R0z7uCmL._AC_SX522_.jpg",
+        "https://de.teckinhome.com/cdn/shop/products/4pack.jpg?v=1642558310"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "ieGeek 2K Caméra Surveillance WiFi Exterieure",
+      "description": "ieGeek 2K Caméra Surveillance WiFi Exterieure sans Fil Batterie, Vision Nocturne Couleur, AI & PIR Détection Mouvement, Extérieure/Intérieure, Audio Bidirectionnel, Étanche IP65",
+      "currentPrice": 400.00,
+      "category": "Caméra",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/igek.png",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S00dba9c198294425bae2e384a49aca74H.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1f54045d47be448b8b59080a45fe0890G.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S1ccc6c4ca69b41439556bde15a8c0f3aL.jpg_960x960q75.jpg_.avif",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sdeaa759f17364659aea683a872f8c74dK.jpg_960x960q75.jpg_.avif"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "ATHOM - Interrupteur de relais WiFi",
+      "description": "Interrupteur de relais WiFi, module de commutation d'éclairage sans fil intelligent pour iOS Homekit Assistant Smart Home Interrupteurs WiFi sans fil universels DIY pour lumières Contrôle d'application vocale Timber AC 110-230V 10A",
+      "currentPrice": 120.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/ATHOM.png",
+        "https://m.media-amazon.com/images/I/61ZQklz2pQL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61J8Uwt0IkL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "BALDR - thermomètre de station",
+      "description": "thermomètre de station météorologique extérieure intérieure sans fil BALDR Home avec affichage des couleurs Prévisions, horloge et calendrier.",
+      "currentPrice": 200.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/61+eltHNwwL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81JNeEPa4+L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71AOMpqmC9L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71k8aQV4gWL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71cuC1rYteL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "BALDR - Station météo sans fil",
+      "description": "Baldr-Station météo sans fil avec grand écran LCD, prévisions météo, compteur de température et d'humidité, horloge de bureau murale RCC.",
+      "currentPrice": 200.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://s.alicdn.com/@sc04/kf/H9ce84612500640cd91c1112da68e4089S.jpg?avif=close",
+        "https://s.alicdn.com/@sc04/kf/Hd305709ce94449f4934bfd2b0cc8e4da5.jpg_720x720q50.jpg",
+        "https://s.alicdn.com/@sc04/kf/Hfe17a82f2dce4dd7b13267e947f029f3e.jpg_720x720q50.jpg",
+        "https://s.alicdn.com/@sc04/kf/Hba430b54628b451aa9d0f9ac2ee22103L.jpg_720x720q50.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "BALDR - Station météo sans fil",
+      "description": "Station météo sans fil BALDR avec capteur extérieur, radio-réveil numérique DCF, thermomètre intérieur extérieur, hygromètre, thermomètre d'ambiance, radio avec prévisions météorologiques.",
+      "currentPrice": 200.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/6159GoHdy5L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71HYkMElRuL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/610IOA2nR0L._SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61px+vpRm+L._SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61sgsaIgSJL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "DIGOO - Station météo ",
+      "description": "Station Meteo DIGOO DG-TH8380 Thermomètre hygromètre d'extérieur avec écran tactile, capteur extérieur, prévisions météo, réveil avec fonction snooze pour maison, chambre à coucher.",
+      "currentPrice": 200.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/61obKlqQL3L._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/41hkvhOms0L.jpg",
+        "https://m.media-amazon.com/images/I/51527cpolEL.jpg",
+        "https://m.media-amazon.com/images/I/51BTd8mxH9L.jpg",
+        "https://m.media-amazon.com/images/I/71oM2msxa9L._SL1200_.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Qxmcov - Station météo ",
+      "description": "Station météo sans fil Qxmcov avec 3 capteurs, thermomètre numérique à grand écran LCD, station météo avec prévisions météorologiques, température, humidité, réveil.",
+      "currentPrice": 400.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://m.media-amazon.com/images/I/61+WUaVUmkL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71oSZhmNZ3L._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/716X27WY0VL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71CKO0hpOdL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61yLJZazCqL._SL1200_.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Stations météo Kalawen Home Thermomètre intérieur ",
+      "description": "Adaptateur UE pour station météo avec capteur extérieur Station météo sans fil avec capteur extérieur Station météo.",
+      "currentPrice": 300.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/THERMOMETRE.png",
+        "https://m.media-amazon.com/images/I/71oSZhmNZ3L._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/716X27WY0VL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71CKO0hpOdL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61yLJZazCqL._SL1200_.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "HOCOSY - Station météo ",
+      "description": "HOCOSY Digital in & amp; Thermomètre hygromètre extérieur, station météo sans fil couleur, moniteur d'humidité de température 3 capteur extérieur, fonction d'alarme, affichage TimeDate.",
+      "currentPrice": 400.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://www.ilgrandebazar.it/cdn/shop/products/61gvfUje2FL_1024x1024@2x.jpg?v=1583401813",
+        "https://www.ilgrandebazar.it/cdn/shop/products/71jvesLj0OL_1024x1024@2x.jpg?v=1583401813",
+        "https://www.ilgrandebazar.it/cdn/shop/products/71Yt7sP4NcL_1024x1024@2x.jpg?v=1583401813",
+        "https://www.ilgrandebazar.it/cdn/shop/products/61xiB1sx0FL_1024x1024@2x.jpg?v=1583401813"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "FanJu - Station météo ",
+      "description": "FanJu – Station météo numérique LCD FJ3373, réveil, prévisions météorologiques intérieures et extérieures, baromètre, thermomètre et hygromètre.",
+      "currentPrice": 250.00,
+      "category": "Hygromètre et station météo",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Se94b47a04c2c4b8582916b5d16f6374dP.jpg_960x960q75.jpg_.avif",
+        "https://m.media-amazon.com/images/I/61CKHoTV9kL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/612vcpRZiYL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51hyGkZINGL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61zqflBFT6L._AC_SL1000_.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Sonoff - Interrupteur d'éclairage intelligent WiFi 2 Gang",
+      "description": "Interrupteur d'éclairage intelligent WiFi 2 Gang Interrupteur mural à écran tactile pour Google Assistant Alexa Commande vocale",
+      "currentPrice": 180.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/2gang.png",
+        "https://media.s-bol.com/B8v81LyrG7LQ/xGlKz1z/1106x1200.jpg",
+        "https://media.s-bol.com/RMXMxwwgMjLY/58WNXYB/1200x985.jpg",
+        "https://witty.ma/wp-content/uploads/2020/12/H45cf92edad05497b864bbbad67424facm.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Sonoff - Interrupteur d'éclairage intelligent WiFi 3 Gang",
+      "description": "Interrupteur d'éclairage intelligent WiFi 3 Gang Interrupteur mural à écran tactile pour Google Assistant Alexa Commande vocale",
+      "currentPrice": 200.00,
+      "category": "Interrupteur",
+      "state": "Neuf",
+      "stock": "En stock",
+      "images": [
+        "/assets/images/3gang.png",
+        "https://media.s-bol.com/JY1YPZKzkJm2/RgL3KoL/1106x1200.jpg",
+        "https://media.s-bol.com/JY1YpxWNJjky/VmN3KGv/1107x1200.jpg",
+        "https://witty.ma/wp-content/uploads/2020/12/H45cf92edad05497b864bbbad67424facm.jpg",
+        "https://media.s-bol.com/3j3jN2JJxxAR/g5kmNo3/550x567.jpg"
+      ]
+    }
+  ]
+}
+
+

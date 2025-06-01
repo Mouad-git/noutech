@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Products détails</title>
+  <meta name="title" content="Woodex - Get Quality Furniture">
+  <meta name="description" content="This is an eCommerce ">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/letter-n.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/product.css">
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@600&display=swap" rel="stylesheet">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/images/hero-product-1.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-2.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-3.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-4.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-product-5.jpg">
+
+</head>
+
+<body id="top">
+
+  
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+        <!-- Barre de recherche unique -->
+        <div class="input-wrapper">
+            <div class="search-bar">
+                <input type="text" 
+                       id="search-input" 
+                       placeholder="Rechercher des produits..."
+                       aria-label="Rechercher">
+                <button id="search-button" aria-label="Lancer la recherche">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div id="search-suggestions" class="search-suggestions hidden"></div>
+        </div>
+
+        <!-- Logo -->
+        <a href="/index.html" class="logo">
+            <img style="width: 150px; display: block; margin: 0 auto;" 
+                 src="/assets/images/logo.jpg" 
+                 alt="Logo du site">
+        </a>
+
+        <!-- Actions header -->
+        <div class="header-action">
+            <button class="header-action-btn search-toggle-btn" 
+                    aria-label="Ouvrir la recherche"
+                    data-search-toggler>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <!-- Les autres boutons restent inchangés -->
+            <a href="/assets/html/login.html">
+                <button class="header-action-btn" aria-label="Profil utilisateur">
+                    <ion-icon name="person-outline"></ion-icon>
+                </button>
+            </a>
+
+            <a href="/assets/html/favorite.html">
+                <button class="header-action-btn" aria-label="Favoris">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <span class="btn-badge">0</span>
+                </button>
+            </a>
+
+            <button class="header-action-btn" aria-label="Panier" data-cart-toggler>
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                <span class="btn-badge">0</span>
+            </button>
+
+            <button class="header-action-btn" 
+                    aria-label="Ouvrir le menu" 
+                    data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <div class="sidebar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+      <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <div class="wrapper">
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Langue</p>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Français</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Anglais</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Arabe</a>
+        </li>
+
+      </ul>
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Devise</p>
+        </li>
+
+
+        <li>
+          <a href="#" class="sidebar-link">MAD - Moroccan Dirham</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>Accueil</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="/assets/html/about.html" class="navbar-link" data-nav-link>À propos</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="/assets/html/product.html" class="navbar-link" data-nav-link>Produits</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <ul class="contact-list">
+
+      <li>
+        <p class="contact-list-title">Contactez-nous</p>
+      </li>
+
+      <li class="contact-item">
+        <address class="address">
+          Tit Mellil, Casablanca, Maroc
+        </address>
+      </li>
+
+      <li class="contact-item">
+        <a href="mailto:noutechnologie@gmail.com" class="contact-link">noutechnologie@gmail.com</a>
+      </li>
+
+      <li class="contact-item">
+        <a href="tel:0721-311213" class="contact-link">+212 721-311213</a>
+      </li>
+
+    </ul>
+
+    <div class="social-wrapper">
+
+      <p class="social-list-title">Suivez-nous sur les réseaux</p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="overlay" data-overlay data-nav-toggler></div>
+
+
+
+<!-- Sidebar du Panier -->
+<div class="sidebar cart-sidebar" data-cart-sidebar>
+
+  <button class="nav-close-btn" aria-label="Fermer le panier" data-cart-toggler>
+    <ion-icon name="close-outline"></ion-icon>
+  </button>
+
+  <div class="wrapper">
+    <h2 class="cart-title">Mon Panier</h2>
+    <div class="cart-content">
+      <p class="empty-cart-message">Votre panier est vide.</p>
+      <!-- Ici les produits seront ajoutés dynamiquement -->
+    </div>
+  </div>
+
+</div>
+
+<div class="overlay" data-cart-overlay></div>
+
+  
+
+
+<div class="">
+<main class="product-container">
+    <div class="product-images">
+        <div id="mediaContainer">
+            <img src="https://www.o3.ma/wp-content/uploads/2020/10/generateur-ozone-fl-B810SY.jpg" class="main-media" alt="Product Image">
+        </div>
+        
+        <div class="thumbnails">
+            <!-- Première image -->
+            <div class="thumbnail-container">
+                <img src="https://www.o3.ma/wp-content/uploads/2020/10/generateur-ozone-fl-B810SY-2.jpg" class="thumbnail active" alt="Thumbnail 1">
+            </div>
+        
+            <!-- Deuxième image -->
+            <div class="thumbnail-container">
+                <img src="https://www.o3.ma/wp-content/uploads/2020/10/generateur-ozone-fl-B810SY.jpg" class="thumbnail" alt="Thumbnail 3">
+            </div>
+
+            <div class="thumbnail-container">
+              <img src="https://www.o3.ma/wp-content/uploads/2020/10/generateur-ozone-fl-B810SY-3.jpg" class="thumbnail" alt="Thumbnail 3">
+          </div>
+        
+            <!-- Vidéo (dernière miniature) -->
+            <div class="thumbnail-container">
+                <video class="thumbnail" muted>
+                    <source src="/assets/images/cours3nod.js.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon">▶</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <section class="main">
+        <div class="default gallery">
+          
+        </div>
+
+        <div class="lightbox">
+          <div class="gallery">
+            <div class="main-img">
+                <!-- icons -->
+                <span class="icon-prev">
+                    <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11 1 3 9l8 8"
+                            stroke="#1D2026"
+                            stroke-width="3"
+                            fill="none"
+                            fill-rule="evenodd"
+                        />
+                    </svg>
+                </span>
+                <span class="icon-next">
+                    <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m2 1 8 8-8 8"
+                            stroke="#1D2026"
+                            stroke-width="3"
+                            fill="none"
+                            fill-rule="evenodd"
+                        />
+                    </svg>
+                </span>
+        
+                <!-- main images -->
+                <img
+                    class="active"
+                    src=""
+                    alt="product-img"
+                />
+                <img src="" alt="product-img" />
+                <img src="" alt="product-img" />
+                <img src="" alt="product-img" />
+        
+                <!-- Video -->
+                <video class="main-video" style="display: none;" controls>
+                    <source src="" type="video/mp4">
+                    
+                </video>
+            </div>
+        </div>
+        
+        </div>
+        <div class="zoom-container" style="display: none;">
+          <span class="close-zoom">✖</span>
+          <img class="zoomed-image" src="" alt="Zoomed Image" />
+        </div>
+        <div class="content">
+          <h2 class="product-name"></h2>
+          <p class="product-desc">
+          </p>
+          <div class="price-info">
+            <div class="price">
+              <span class="current-price"></span>
+              <span class="discount"></span>
+            </div>
+            <div class="prev-price"></div>
+          </div>
+          <div class="add-to-cart-container">
+            <button class="favorite" id="favorite-button">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <button class="cart">
+              <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            </button>
+            
+            <button class="add-to-cart">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+              <span>Commander</span>
+            </button>
+            
+          </div>
+          <div class="stock-status">
+            <strong>Disponible:</strong> <span class="stock-text">En stock</span>
+          </div>
+          <div class="catégorie">
+            <strong>Catégorie:</strong> <span class="stock-text">Basket</span>
+          </div>
+          <div class="etat">
+            <strong>État:</strong> <span class="stock-text">neuf</span>
+          </div>
+        </div>
+      </section>
+</main>
+</div>
+  
+
+
+<!-- 
+    - #RELATED PRODUCT
+  -->
+
+  <section class="section product" id="product" aria-label="product">
+    <div class="container">
+      <div class="title-wrapper">
+        <h2 class="h2 section-title3 W">Produits liés à cet article</h2>
+        
+      </div>
+
+      <!-- Flickity Carousel -->
+      <div class="carousel" id="product-carousel">
+        <!-- Les produits seront ajoutés ici dynamiquement -->
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img style="width: 110px; display: block;" src="/assets/images/logo.jpg" alt="logo"></a>
+<br>
+          <ul>
+
+            <li class="footer-list-item">
+              
+
+              <address class="address">
+                Noutech - L'essentiel pour tous, de l'électronique aux articles du quotidien, à des prix incroyablement bas !
+              </address>
+            </li>
+
+            
+            
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact</p>
+          </li>
+
+          <li class="inline-icon-text">
+            <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+            <address class="address">
+              Tit Mellil, Casablanca, Maroc
+            </address>
+          </li>
+          <li class="inline-icon-text">
+            <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+            <a href="tel:+1234567890" class="footer-link">+212 721-311213</a>
+          </li>
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Liens rapides</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="./assets/html/about.html" class="footer-link">À propos </a>
+          </li>
+
+          <li>
+            <a href="./assets/html/product.html" class="footer-link">Produits</a>
+          </li>
+
+          
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Abonnez-vous</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" placeholder="Votre addresse e-mail" required class="email-field">
+
+            <button type="submit" class="footer-form-btn">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <div class="wrapper">
+
+            <a href="#" class="footer-link">Conditions générales</a>
+            <a href="#" class="footer-link">Politique</a>
+            <a href="#" class="footer-link">Carte</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2025 Tous droits réservés par <a href="https://mouadnouzri.netlify.app/" target="_blank" class="copyright-link"> Mouad Nouzri</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/assets/js/script.js" defer></script>
+  <script src="/assets/js/favorite.js"></script>
+  <script src="/assets/js/productdetail.js"></script>
+  <script src="/assets/js/recherche.js" defer></script>
+  <script src="/assets/js/cart.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+    const sidebar = document.querySelector(".sidebar");
+    const overlay = document.querySelector("[data-overlay]");
+    
+    navTogglers.forEach(toggler => {
+        toggler.addEventListener("click", function () {
+            sidebar.classList.toggle("active");
+            overlay.classList.toggle("active");
+        });
+    });
+
+    // Fermer le menu si on clique sur l'overlay
+    overlay.addEventListener("click", function () {
+        sidebar.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+});
+
+</script>
+</body>
+</html>
