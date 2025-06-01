@@ -267,7 +267,7 @@
         let filteredProducts = [...products];
 
         // API functions pour Netlify Functions
-        const API_BASE_URL = '/api'; // Netlify Functions via redirects
+        const API_BASE_URL = 'https://noutech.netlify.app/.netlify/functions/products-get'; // Netlify Functions via redirects
 
         async function syncWithAPI(action, data = null) {
             const loadingOverlay = document.getElementById('loadingOverlay');
